@@ -1,6 +1,7 @@
 import { TestConfig } from './test-success.config';
 
-// @ts-ignore
-const errorAttributeNoValue: TestConfig = 1 as TestConfig;
+const errorAttributeNoValue: TestConfig = {
+  foo: ,
+};
 
 export default errorAttributeNoValue;
